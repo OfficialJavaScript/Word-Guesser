@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Quicksand&family=Raleway&family=Ubuntu&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+}
+
+h2 { 
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+html {
+    background-color: wheat;
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.guess-box {
+    display: inline-block;
+}
+
+input {
+    width: 95px;
+    height: 95px;
+    margin: 5px; 
+    font-size: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.correct {
+    background-color: lime;
+}
+
+.wrong-place {
+    background-color: plum;
+}
